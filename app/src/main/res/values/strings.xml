@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Stack App</string>
+    <string name="stack">Stack</string>
+    <string name="notation">Notation</string>
+    <string name="prefix">Prefix</string>
+    <string name="infix">Infix</string>
+    <string name="postfix">Postfix</string>
+    <string name="expression">Expression :</string>
+    <string name="example">3+4–2/5*6</string>
+    <string name="length">Length :</string>
+    <string name="value">Value :</string>
+    <string name="input_value">Input Value!</string>
+    <string name="push">Push</string>
+    <string name="pop">Pop</string>
+    <string name="set">Set</string>
+    <string name="the_value_popped_is">The value popped is :</string>
+    <string name="about_app"><u>About App</u></string>
+    <string name="evaluate_infix_expression">Evaluate Infix Expression!</string>
+    <string name="calculate">Calculate</string>
+    <string name="steps">Steps op!</string>
+</resources>

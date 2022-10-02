@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Purplelightest">
+
+
+    <android.widget.RadioGroup
+        android:id="@+id/RadioGrp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.widget.RadioButton
+            android:id="@+id/prefix"
+            android:layout_width="95dp"
+            android:layout_height="42dp"
+            android:background="@drawable/radio_select"
+            android:button="@color/transparent"
+            android:fontFamily="@font/bahnschrift1"
+            android:text="@string/prefix"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <android.widget.RadioButton
+            android:id="@+id/infix"
+            android:layout_width="95dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="35dp"
+            android:background="@drawable/radio_select"
+            android:button="@color/transparent"
+            android:fontFamily="@font/bahnschrift1"
+            android:text="@string/infix"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <android.widget.RadioButton
+            android:id="@+id/postfix"
+            android:layout_width="95dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="35dp"
+            android:background="@drawable/radio_select"
+            android:button="@color/transparent"
+            android:fontFamily="@font/bahnschrift1"
+            android:text="@string/postfix"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </android.widget.RadioGroup>
+
+    <EditText
+        android:id="@+id/expressionInput"
+        android:layout_width="@dimen/_193sdp"
+        android:layout_height="@dimen/_42sdp"
+        android:background="@drawable/expression_input"
+        android:digits="0,1,2,3,4,5,6,7,8,9,+,*,/,-,^,),("
+        android:fontFamily="@font/bahnschrift1"
+        android:gravity="center"
+        android:hint="@string/evaluate_infix_expression"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:maxLength="40"
+        android:paddingStart="18dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/Purpledark"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/expression"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/expression" />
+
+    <TextView
+        android:id="@+id/expression"
+        android:layout_width="@dimen/_102sdp"
+        android:layout_height="@dimen/_42sdp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/ic_length_base"
+        android:fontFamily="@font/bahnschrift1"
+        android:gravity="center"
+        android:text="@string/expression"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintBottom_toTopOf="@id/mid"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/expressionInput"
+        app:layout_constraintTop_toBottomOf="@id/RadioGrp"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <android.widget.Button
+        android:id="@+id/cal_button"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_46sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:background="@drawable/calculate_button"
+        android:elevation="2dp"
+        android:fontFamily="@font/bahnschrift1"
+        android:gravity="center"
+        android:text="@string/calculate"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_19sdp"
+        android:letterSpacing="0.04"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/precedureView"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mid"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/answer_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:fontFamily="@font/bahnschrift1"
+        android:gravity="center"
+        android:text="@string/example"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/precedureView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cal_button" />
+
+
+    <TextView
+        android:id="@+id/precedureView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/ic_procedure_base"
+        android:fontFamily="@font/bahnschrift1"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/_1sdp"
+        android:text="@string/steps"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_22sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/mid"
+        app:layout_constraintVertical_bias="0.918" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.23" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

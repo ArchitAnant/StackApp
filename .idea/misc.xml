@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/calculate_button.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/down_value.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/expression_input.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/help_button.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/ic_help.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/ic_stack_5.xml" value="0.138" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/ic_stack_6.xml" value="0.138" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/ic_stack_7.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/main_button_pressed.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/main_buttons.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/main_stack.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/main_stack_round.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/main_stack_round_down.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/one_stack.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/pressed_stack_button.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/push_pop_button.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/radio_check.xml" value="0.163" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/radio_normal.xml" value="0.1315" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/radio_select.xml" value="0.163" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/round_coner_fragmnt.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/stack_button.xml" value="0.236" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/drawable/value_field.xml" value="0.1915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/layout/activity_main.xml" value="0.19757085020242915" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/layout/fragment_blank.xml" value="0.21981981981981982" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/layout/notation_fragment.xml" value="0.21891891891891893" />
+        <entry key="..\:/Users/Archit/AndroidStudioProjects/StackApp2/app/src/main/res/layout/stack_fragment.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
